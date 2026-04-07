@@ -60,4 +60,4 @@ CONFIG = {
 - Reutilizable para múltiples fuentes de datos
 
 ---
-**Autor:** Julio Carvallo | [LinkedIn](https://linkedin.com/in/TU_PERFIL)
+**Autor:** Julio Carvallo | [LinkedIn]https://www.linkedin.com/in/julio-carvalo/)
