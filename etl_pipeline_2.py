@@ -40,7 +40,7 @@ def generar_datos_ejemplo(n: int = 500) -> pd.DataFrame:
         "estado":      np.random.choice(["Activo", "Completado", "Pendiente"], n, p=[0.5, 0.35, 0.15]),
     }
 
-    # Introducir algunos valores nulos y duplicados para que el pipeline tenga trabajo
+    # Se introducen algunos valores nulos y duplicados para que el pipeline tenga trabajo
     df = pd.DataFrame(data)
     df.loc[np.random.choice(df.index, 10, replace=False), "cliente_id"] = None
     df = pd.concat([df, df.sample(5)], ignore_index=True)  # duplicados
